@@ -15,7 +15,7 @@ document.addEventListener("keypress",(e)=>{
 })
 
 function add(){
-    if(inputTask.value!='' && inputDate.value!=''){
+    if(inputTask.value!=''){
        let taskValue=inputTask.value;
        let taskDate=inputDate.value;
        taskArray.push({item:taskValue,date:taskDate});
