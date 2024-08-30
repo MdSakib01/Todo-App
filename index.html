@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Todo App</h1><hr>
+    <div class="input-field">
+        <input id="inputTask" type="text" placeholder="Enter task here..">
+        <input id="inputDate" type="date">
+        <button id="addBtn">Add</button>
+    </div>
+    <hr>
+    <div id="task-container" class="task-container">
+        <div class="task">
+            <p>1kg aalu</p>
+            <p>29/08/2024</p>
+            <button id="1" onclick="dlt(this)">Delete</button>
+        </div>
+        <div class="task">
+            <p>1kg aalu</p>
+            <p>29/08/2024</p>
+            <button id="2" onclick="dlt(this)">Delete</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
